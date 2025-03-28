@@ -1,0 +1,34 @@
+
+# manual.pdf
+
+This manual explains how to use the notebooks in this repository.
+
+## Prerequisites
+- Python 3.8+
+- Install required packages using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Files
+- `Bug_Report_Classification_Bert.ipynb` – Fine-tuning and evaluating DistilBERT.
+- `NB+SVM_+XG+DistilBERT.ipynb` – Baseline and classical ML models (NB, SVM, XGBoost) plus DistilBERT.
+
+## Instructions
+1. Download or clone this GitHub repo.
+2. Place your dataset file (e.g., `tensorflow.csv`) in the root directory.
+3. Open the notebooks in Jupyter or Colab.
+4. Run all cells in order.
+5. Results will be printed in the output and optionally saved as CSVs.
+
+## Output
+Each model produces performance metrics:
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Log Loss
+- AUC
+
+Results are printed and saved to corresponding CSV files.

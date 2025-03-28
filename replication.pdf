@@ -1,0 +1,28 @@
+
+# replication.pdf
+
+This document provides steps to replicate the results from the report.
+
+## Step-by-Step Instructions
+
+1. **Setup Environment:**
+   - Ensure Python 3.8+ is installed.
+   - Install required libraries using `pip install -r requirements.txt`.
+
+2. **Prepare Dataset:**
+   - Download the bug report dataset (e.g., `tensorflow.csv`).
+   - Place it in the root directory of the repository.
+
+3. **Run Notebooks:**
+   - Open `NB+SVM_+XG+DistilBERT.ipynb` to run classical models.
+   - Open `Bug_Report_Classification_Bert.ipynb` to run DistilBERT.
+   - Ensure the notebook kernel has sufficient RAM (>8GB) for BERT.
+
+4. **Collect Results:**
+   - After execution, results will be printed and saved to CSV files.
+   - Confusion matrices and classification reports will be displayed.
+
+5. **Compare Performance:**
+   - Compare metrics like F1 Score and AUC with the baseline (Naive Bayes + TF-IDF).
+
+You should be able to reproduce the experimental setup and results with minimal deviation.
