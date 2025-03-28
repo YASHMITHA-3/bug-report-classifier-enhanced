@@ -25,6 +25,8 @@ Bug reports often contain noisy text and vary in length and quality. My goal is 
 ```bash
 pip install transformers datasets scikit-learn xgboost pandas seaborn matplotlib nltk
 ```
+## Folder Structure
+<img width="564" alt="image" src="https://github.com/user-attachments/assets/c96542c0-527d-4c2c-b4ed-23c311341464" />
 
 ## 🚀 How to Run
 
