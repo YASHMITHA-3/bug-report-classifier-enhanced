@@ -53,8 +53,6 @@ DistilBERT significantly outperforms all baselines on accuracy, precision, recal
 - Accuracy, Precision, Recall, F1 Score, Log Loss, AUC
 - Repeated runs and averaged results to ensure stability.
 
-## 📎 Citation
-
 
 ---
 
